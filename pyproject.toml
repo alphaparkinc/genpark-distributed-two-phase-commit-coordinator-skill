@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-distributed-two-phase-commit-coordinator-skill"
+version = "1.0.0"
+description = "Distributed Two-Phase Commit (2PC) transaction coordinator with prepare/vote phase, unanimous consensus commit/abort logic, and failure recovery."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
