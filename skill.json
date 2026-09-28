@@ -1,0 +1,9 @@
+{
+  "name": "genpark-distributed-two-phase-commit-coordinator-skill",
+  "version": "1.0.0",
+  "description": "Distributed Two-Phase Commit (2PC) transaction coordinator with prepare/vote phase, unanimous consensus commit/abort logic, and failure recovery.",
+  "category": "Service",
+  "entrypoint": "client.py",
+  "mcp": "mcp_server.py",
+  "author": "GenPark AI"
+}
